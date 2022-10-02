@@ -1,0 +1,97 @@
+
+.carousel-item img {
+    filter: brightness(50%);
+}
+
+#titulo_oradores p h5{
+    color:gray;
+    padding-top: 1rem;
+}
+
+.navbar {
+    padding-left: 10rem;
+    padding-right: 10rem;
+}
+
+.navbar-brand img {
+    width: 100px;
+}
+
+#boton_verde {
+    color: #25a342;
+}
+
+#honolulu {
+
+    padding-left: 0;
+    margin-left: 0;
+    margin-top: 3rem;
+
+}
+
+#ba_octubre {
+    background-color: #333a40;
+    color: lightgray;
+    padding-top: 1rem;
+    font-weight:600;
+    padding-left: 2rem;
+    border-left: 1px solid white;
+    border-top: 1px solid white;
+}
+
+#imagen_honolulu {
+
+    padding-right: 0;
+    border-right: 1px solid white;
+    border-top: 1px solid white;
+}
+
+#boton_octubre {
+    color: lightgray;
+    border: 1px solid lightgray;
+}
+
+
+
+form {
+    margin: auto;
+}
+
+#boton_form {
+    background-color: #96c93e;
+    border: none;
+}
+
+/* #form_nombre {
+    margin-right: 1rem;
+}
+
+#form_apellido {
+    margin-left: 1rem;
+} */
+/* Created with https://www.css-gradient.com */
+.footer {
+    background: #1D3744;
+    background: -webkit-linear-gradient(left, #1D3744, #205371);
+    background: -moz-linear-gradient(left, #1D3744, #205371);
+    background: linear-gradient(to right, #1D3744, #205371);
+    color: white;
+    padding-bottom: 5rem;
+    height: 5rem;
+    margin-top: 2rem;
+    bottom: 0;
+    width: 100%;
+    margin: auto;
+
+}
+
+#footer_opciones a{
+    color: white;
+    text-decoration: none;
+    padding: 2rem 2rem 2rem 2rem;
+    margin-top: 10rem;
+}
+
+.contenido_footer {
+    padding-top: 2 rem;
+}
