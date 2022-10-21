@@ -1,6 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+}
 
 .carousel-item img {
     filter: brightness(50%);
+}
+
+.carousel-item {
+
+    background-size: cover;
+    background-position: center center;       
+
 }
 
 #titulo_oradores p h5{
@@ -57,31 +68,29 @@ form {
     margin: auto;
 }
 
+#form_apellido {
+    padding-left: 2rem;
+}
+
 #boton_form {
     background-color: #96c93e;
     border: none;
 }
 
-/* #form_nombre {
-    margin-right: 1rem;
-}
 
-#form_apellido {
-    margin-left: 1rem;
-} */
-/* Created with https://www.css-gradient.com */
+
 .footer {
+    /* Created with https://www.css-gradient.com */    
     background: #1D3744;
     background: -webkit-linear-gradient(left, #1D3744, #205371);
     background: -moz-linear-gradient(left, #1D3744, #205371);
     background: linear-gradient(to right, #1D3744, #205371);
-    color: white;
+        
     padding-bottom: 5rem;
     height: 5rem;
     margin-top: 2rem;
-    bottom: 0;
-    width: 100%;
-    margin: auto;
+    display: flex;
+    align-items: center;
 
 }
 
@@ -90,8 +99,10 @@ form {
     text-decoration: none;
     padding: 2rem 2rem 2rem 2rem;
     margin-top: 10rem;
+    
+    
 }
-
+ 
 .contenido_footer {
-    padding-top: 2 rem;
+    padding-top: 5rem;
 }
