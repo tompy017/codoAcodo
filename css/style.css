@@ -1,34 +1,23 @@
 * {
-    margin: 0;
-    padding: 0;
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
 }
 
 /* Navbar */
-.navbar {
-    padding-left: 5rem;
-    padding-right: 10rem;
-
-    position:absolute;
-    z-index: 10;
+#navbarIframe {
     width: 100%;
-
+    height: 80px;
+    display: block;
+    /* position:absolute; */
+    z-index: 10;
 }
-
-.navbar-brand img {
-    width: 100px;
-}
-
-#boton_verde {
-    color: #25a342;
-}
-
 
 /* Carousel */
 .carousel-item img {
     filter: brightness(50%);
-    max-height: 60rem;
+    max-height: 50rem;
 }
-
 
 /* Oradores */
 #titulo_oradores p h5{
@@ -36,14 +25,10 @@
     padding-top: 1rem;
 }
 
-
-
 #honolulu {
-
     padding-left: 0;
     margin-left: 0;
     margin-top: 3rem;
-
 }
 
 #ba_octubre {
@@ -57,7 +42,6 @@
 }
 
 #imagen_honolulu {
-
     padding-right: 0;
     border-right: 1px solid white;
     border-top: 1px solid white;
@@ -67,7 +51,6 @@
     color: lightgray;
     border: 1px solid lightgray;
 }
-
 
 /* Formulario */
 #charla_ignite {
@@ -83,32 +66,10 @@ form {
     border: none;
 }
 
-
-
-.footer {
-    /* Created with https://www.css-gradient.com */    
-    background: #1D3744;
-    background: -webkit-linear-gradient(left, #1D3744, #205371);
-    background: -moz-linear-gradient(left, #1D3744, #205371);
-    background: linear-gradient(to right, #1D3744, #205371);
-        
-    padding-bottom: 5rem;
-    height: 5rem;
-    margin-top: 2rem;
-    display: flex;
-    align-items: center;
-
-}
-
-#footer_opciones a{
-    color: white;
-    text-decoration: none;
-    padding: 2rem 2rem 2rem 2rem;
-    margin-top: 10rem;
-    
-    
-}
- 
-.contenido_footer {
-    padding-top: 5rem;
+#footer {
+    width: 100%;
+    bottom: 0;
+    margin-bottom: 0px;
+    height:6rem;
+    display: block;
 }

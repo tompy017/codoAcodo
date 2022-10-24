@@ -1,0 +1,33 @@
+* {
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+    font-size: 14px;
+
+}
+.footer {
+    background: #1D3744;
+    background: -webkit-linear-gradient(left, #1D3744, #205371);
+    background: -moz-linear-gradient(left, #1D3744, #205371);
+    background: linear-gradient(to right, #1D3744, #205371);
+
+    padding-bottom: 5rem;
+    height: 5rem;
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
+}
+
+#footer_opciones a{
+    color: white;
+    text-decoration: none;
+    padding: 2rem 2rem 2rem 2rem;    
+}
+
+a:hover {
+    font-weight: 250;
+}
+
+.contenido_footer {
+    padding-top: 5rem;
+}
