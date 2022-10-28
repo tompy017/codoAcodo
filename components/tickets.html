@@ -22,7 +22,7 @@
                     <div class="card-body">
                         <h5 class="card-title">Estudiante</h5>
                         <p class="card-text">Tienen un descuento.</p>
-                        <p class="cantidad-descuento">50%</p>
+                        <p class="cantidad-descuento">80%</p>
                         <p class="card-text"><small class="text-muted">* presentar documentación</small></p>
                     </div>
                 </div>
@@ -32,7 +32,7 @@
                     <div class="card-body">
                         <h5 class="card-title">Trainee</h5>
                         <p class="card-text">Tienen un descuento.</p>
-                        <p class="cantidad-descuento">15%</p>
+                        <p class="cantidad-descuento">50%</p>
                         <p class="card-text"><small class="text-muted">* presentar documentación</small></p>
                     </div>
                 </div>
@@ -42,7 +42,7 @@
                     <div class="card-body">
                         <h5 class="card-title">Junior</h5>
                         <p class="card-text">Tienen un descuento.</p>
-                        <p class="cantidad-descuento">80%</p>
+                        <p class="cantidad-descuento">15%</p>
                         <p class="card-text"><small class="text-muted">* presentar documentación</small></p>
                     </div>
                 </div>
@@ -51,18 +51,16 @@
         
         <br>
 
-
         <!-- Venta Tickets -->
         <div class="container">
             <div class="titulo-venta-tickets">
                 <div class="text-center">
                     <p class="fw-light">Venta</p>
-                    <h1>VALOR DE TICKET $200</h1>
+                    <h1 id="valor-de-ticket">VALOR DE TICKET $</h1>
                 </div>
             </div>
 
-
-            <!-- Formulario  -->
+            <!-- Form  -->
             <form action="#" method="post" class="mb-3">
                 <div class="row ">
                     <div class="col input-group-sm">
@@ -83,7 +81,7 @@
                     </div>
                     <div class="col">
                         <label for="opcion" class="form-label" >Categoría</label>
-                        <select id="opcion" class=" form-select form-select-sm ">
+                        <select name="categorias" id="categorias" class=" form-select form-select-sm ">
                             <option value="1">Sin descuento</option>
                             <option value="2">Estudiante</option>
                             <option value="3">Trainee</option>
@@ -106,14 +104,13 @@
                         <button class="btn btn-success estilo-boton border mb-3" onclick=""> Resumen </button>
                     </div>
                 </div>    
-            
             </form>
         </div>
     </div>
+
     <!-- Footer -->
     <footer class="footer" id="footer-tickets"><iframe src="footer.html" id="footer"></iframe></footer>
 
-
-
+    <script src="../js/functionTickets.js"></script>
 </body>
 </html>
