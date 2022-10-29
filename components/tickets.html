@@ -61,23 +61,23 @@
             </div>
 
             <!-- Form  -->
-            <form action="#" method="post" class="mb-3">
+            <form action="#" method="post" class="mb-3" onsubmit="return false">
                 <div class="row ">
                     <div class="col input-group-sm">
-                        <input type="text" class="form-control" placeholder="Nombre" aria-label="Nombre" required>
+                        <input type="text" class="form-control" placeholder="Nombre" aria-label="Nombre" id="nombre" name="nombre" required>
                     </div>
                     <div class="col input-group-sm ">
-                        <input type="text" class="form-control" placeholder="Apellido" aria-label="Apellido" required>
+                        <input type="text" class="form-control" placeholder="Apellido" aria-label="Apellido" id="apellido" name="apellido" required>
                     </div>
                 </div> 
                 <div class="mt-3">
-                    <input type="email" class="form-control" placeholder="Email" id="correo" aria-describedby="emailHelp" required>
+                    <input type="email" class="form-control" placeholder="Email" id="email" name="email" aria-describedby="emailHelp" required>
                 </div>
 
                 <div class="row mt-2 ">
                     <div class="col input-group-sm">
                         <label for="cantidad" class="form-label">Cantidad</label>
-                        <input type="number" class="form-control" placeholder="Cantidad" id="cantidad" required>
+                        <input type="number" min="0" class="form-control" placeholder="Cantidad" id="cantidad" name="cantidad" required>
                     </div>
                     <div class="col">
                         <label for="opcion" class="form-label" >Categoría</label>
@@ -91,17 +91,17 @@
                 </div> 
                 
                 <!-- Alert total a pagar -->
-                <div class="alert alert-info" role="alert" id="total-a-pagar">
-                    Total a pagar: $
+                <div class="alert alert-info" role="alert" id="total-a-pagar" name="total-a-pagar">
+                    <p id="informar-total" name="informar-total">Total a pagar: $</p>
                 </div>
                 
                 <!-- Botones -->
                 <div class="row g-0 botones-tickets">
                     <div class="d-lg-grid gap-2 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6 ">
-                        <button class="btn btn-success estilo-boton border mb-3" type="reset" id="boton"> Borrar</button>
+                        <button class="btn btn-success estilo-boton border mb-3" type="reset" id="boton-borrar" name="boton-borrar">Borrar</button>
                     </div>
                     <div class="d-lg-grid gap-2 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
-                        <button class="btn btn-success estilo-boton border mb-3" onclick=""> Resumen </button>
+                        <button class="btn btn-success estilo-boton border mb-3" onclick="" id="boton-resumen" name="boton-resumen">Resumen</button>
                     </div>
                 </div>    
             </form>

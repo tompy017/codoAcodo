@@ -14,9 +14,15 @@
 }
 
 /* Carousel */
+
+.carousel .carousel-item {
+    transition-duration: 1s;
+}
+
+
 .carousel-item img {
     filter: brightness(50%);
-    max-height: 50rem;
+    max-height: 41rem;
 }
 
 
@@ -119,7 +125,8 @@ form {
     margin-top: 30px;
     margin-bottom: 30px;
     /* display: none; */
-    /* visibility:hidden; */
+    visibility:hidden;
+
 }
 
 /* Formulario */
