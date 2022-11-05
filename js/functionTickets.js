@@ -17,6 +17,13 @@ var borrarBtn = document.getElementById("boton-borrar")
 
 function calc_price(){
 
+/*     var informarTotal = document.getElementById("total-a-pagar")
+    var totalFinal = document.getElementById("informar-total")
+    var cantidadTickets = parseInt(document.getElementById("cantidad").value);
+    var userOption = parseInt(document.getElementById("categorias").value);     // Categoria seleccionada
+    var resumeBtn = document.getElementById("boton-resumen")
+    var borrarBtn = document.getElementById("boton-borrar") */
+
 
     // Sin descuento
     if (userOption === 1){
