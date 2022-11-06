@@ -35,7 +35,7 @@ function calc_price(){
         total = (fullTicket * (1 - descuentoJunior)) * cantidadTickets;
     }
 
-    totalFinal.innerHTML = "Total a pagar: $" + total;
+    totalFinal.innerHTML = "Total a pagar: $" + total.toFixed(2);
     informarTotal.style.visibility="visible";   
 
 }
