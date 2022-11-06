@@ -7,18 +7,15 @@ var ticket_price = document.getElementById("ticket_price");
 ticket_price.innerHTML += fullTicket.toString();        // insert price on page
 
 
-var total = 0;
-
-var informarTotal = document.getElementById("informarTotal")
-var totalFinal = document.getElementById("totalFinal")
-var cantidadTickets = parseInt(document.getElementById("cantidadTickets").value);
-var categorias = parseInt(document.getElementById("categorias").value);     // Categoria seleccionada
+var total;
 var resumeBtn = document.getElementById("boton-resumen")
 var borrarBtn = document.getElementById("boton-borrar")
 
-
-
 function calc_price(){
+    var informarTotal = document.getElementById("informarTotal")
+    var totalFinal = document.getElementById("totalFinal")
+    var cantidadTickets = parseInt(document.getElementById("cantidadTickets").value);
+    var categorias = parseInt(document.getElementById("categorias").value);     // Categoria seleccionada
 
     // Sin descuento
     if (categorias === 1){
@@ -38,11 +35,9 @@ function calc_price(){
     }
 
     totalFinal.innerHTML += total;
-    informarTotal.style.visibility="visible";
-
+    informarTotal.style.visibility="visible";   
 
 }
 
 resumeBtn.addEventListener("click",calc_price)
 
-console.log()
