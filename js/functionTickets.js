@@ -4,14 +4,15 @@ var descuentoTrainee = 0.5;          // 50% descuento
 var descuentoJunior = 0.15;          // 15% descuento
 
 var ticket_price = document.getElementById("ticket_price");
-ticket_price.innerHTML += fullTicket.toString();        // insert price on page
+ticket_price.innerHTML += fullTicket.toString();        // insert price on page - title
 
 
-var total;
 var resumeBtn = document.getElementById("boton-resumen")
 var borrarBtn = document.getElementById("boton-borrar")
 
 function calc_price(){
+
+    var total;
     var informarTotal = document.getElementById("informarTotal")
     var totalFinal = document.getElementById("totalFinal")
     var cantidadTickets = parseInt(document.getElementById("cantidadTickets").value);
@@ -34,7 +35,7 @@ function calc_price(){
         total = (fullTicket * (1 - descuentoJunior)) * cantidadTickets;
     }
 
-    totalFinal.innerHTML += total;
+    totalFinal.innerHTML = "Total a pagar: $" + total;
     informarTotal.style.visibility="visible";   
 
 }
